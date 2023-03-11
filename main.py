@@ -19,5 +19,9 @@ def predict_price():
 
    return (predicted_cover)
 
+@app.route("/123")
+def demo():
+    return "edited"
+
 if __name__ == "__main__":
     app.run(debug=True)
